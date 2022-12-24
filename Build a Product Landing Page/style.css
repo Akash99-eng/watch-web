@@ -1,0 +1,502 @@
+
+body{
+  background-color: #040c13;
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  display: flex;
+  background-color: #14001c;
+  color: white;
+  height: 90px;
+  border-radius: 8px;
+  /* font-size: 14px; */
+  font-weight: bolder;
+  color: white;
+  font-family: 'Pacifico', cursive;
+font-family: 'Poppins', sans-serif;
+}
+
+#nav-bar{
+display: flex;
+position: absolute;
+top: -5px;
+left: -400px;
+/* font-size: 22px; */
+justify-content: space-between;
+width: 100%;
+font-family: 'Pacifico', cursive;
+font-family: 'Poppins', sans-serif;
+
+
+}
+@media (max-width: 900px) {
+  
+  #nav-bar {
+    flex-wrap: wrap;
+    position: absolute;
+    left: -900px; 
+    color: white;
+    top: -20px;
+    font-size: 25px;
+
+   
+  }
+  .header{
+  font-size: 15px;
+ height: 40px;}
+}
+#quote{
+  font-size: 32px;
+  position: absolute;
+  left: -700px;
+  top: 200px;
+  font-family: 'Pacifico', cursive;
+font-family: 'Poppins', sans-serif;
+}
+@media (max-width:850px) {
+  #quote{
+  font-size:18px;
+  position: absolute;
+  left: -800px;
+  top: -30px;
+  }
+  #shoping img{
+    width: 250px;
+    height: 250px;
+    margin-top: 100px;
+    margin-left: -1000px;
+  }
+  #quote-2{
+    font-size: 18px;
+    position: relative;
+    top: -180px;
+    left: -500px;
+    margin-left: -300px;
+    margin-bottom: 100px;
+
+  }
+  #quote-3{
+    font-size: 18px;
+    position: relative;
+    top: -180px;
+    left: -500px;
+    margin-left: -300px;
+    margin-bottom: 100px;
+
+  }
+  #shoping-1 img{
+ 
+  width: 250px;
+  height: 200px;
+ 
+  }
+  #shoping-1 img{
+    position: absolute;
+   bottom: -200px;
+  width: 50px;
+ 
+  left: -100px;
+  }
+  #brand{
+    font-size: 12px;
+    margin-left: -10px;
+    margin-top: 10px;
+  }
+  ul{
+    font-size: 12px; 
+    margin-left: -160px;
+  }
+ 
+  
+}
+code{
+  font-size: 16px;
+  color: rgb(201, 0, 0);
+}
+#brand{
+  font-size: 21px;
+  margin-top: 30px;
+}
+ul li:hover{
+  color:#71b6ee;
+}
+#illus{
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 190px;
+  left: 1050px;
+}
+#shoping-1 img{
+  position: absolute;
+ top: -15px;
+width: 300px;
+height: 300px;
+left: 50px;
+}
+#quote-2{
+ margin-left: 500px;
+ margin-bottom: 100px;
+ font-size: 22px;
+ color: white;
+}
+#quote-2{
+  margin-left: 500px;
+  margin-bottom: 100px;
+  font-size: 22px;
+  color: white;
+ }
+
+
+
+ul{
+  width: auto;
+  float: right;
+  margin-top: 8px;
+  cursor: pointer;
+  
+  
+}
+
+span{
+  position: relative;
+  left:30px;
+}
+li{
+ display:inline-block; 
+ padding-left:40px;
+ margin-top: 30px;
+position: relative;
+left: 70rem;
+  color: white;
+
+}
+.container{
+  position: absolute;
+  top: 130px;
+  left: 50rem;
+  font-size: 30px;color: white;
+  font-weight: bold;
+  font-family: 'Pacifico', cursive;
+  font-family: 'Poppins', sans-serif;
+}
+#search-bar{
+  width: 300px;
+  height: 50px;
+  border-radius: 8px;
+  position: relative;
+  left: 300px;
+  top: 30px;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+}
+@media (max-width:850px) {
+  #search-bar{
+    width: 150px;
+    height: 30px;
+    border-radius: 8px;
+    
+    position: fixed;
+    left:9rem;
+    top: 80px;
+  }
+}
+#watch-list{
+  display: flex;
+  position: absolute;
+  top: 1200px;
+  left: 40px;
+
+}
+#watch-list-1{
+  display: flex;
+  position: absolute;
+  top: 1700px;
+  left: 40px;
+
+}
+.watch-1{
+
+width: 250px;
+height: 250px;
+}
+.watch_la{
+  width: 400px;
+  height: 400px;
+  background-color: rgb(233, 225, 225);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 12px;
+  align-items: center;
+  text-align: center;
+}
+#specifyColor {
+  accent-color: green;
+}
+#specifyColor {
+  accent-color: black;
+}
+#specifyColor {
+  accent-color: blue;
+}
+label{
+  font-size: 15px;
+  font-family: 'Pacifico', cursive;
+  font-family: 'Poppins', sans-serif;
+
+}
+h1 {
+  font-size: 22px;
+  font-family: 'Pacifico', cursive;
+  font-family: 'Poppins', sans-serif;
+}
+h2 {
+  font-size: 17px;
+  font-family: 'Pacifico', cursive;
+  font-family: 'Poppins', sans-serif;
+}
+.disp{
+  width: 500px;
+  height: 500px;
+  background-color: green;
+  position:fixed;
+  
+}
+.buy{
+  width: 150px;
+  height: 50px;
+  background-color: rgb(38, 248, 38);
+  border: none;
+  border-radius: 8px;
+  font-size: 17px;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: 'Pacifico', cursive;
+  font-family: 'Poppins', sans-serif;
+
+}
+.buy:hover{
+background-color: rgb(243, 114, 9);
+color: white;
+transition: 0.5s;
+
+}
+
+#video{
+  position: absolute;
+  top: 80rem;
+  left: 80rem;
+  
+}
+#quote-3{
+  position: absolute;
+  top: 85rem;
+  left: 20rem;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Pacifico', cursive;
+  font-family: 'Poppins', sans-serif;
+}
+@media (max-width:850px) {
+  #quote-3{
+    font-size: 26px;
+    /* position: relative;
+    top: 1500px;
+    left: 3em; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 270px;
+    margin-left: -300px;
+    flex-wrap: wrap;
+
+  }
+  #video{
+    position: absolute;
+    top: 110rem;
+    left: 2rem;
+    
+  }
+  
+}
+.info{
+  position: absolute;
+  top: 55rem;
+  left: 10rem;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Pacifico', cursive;
+  font-family: 'Poppins', sans-serif;
+}
+
+.card{
+  display: flex;
+  position: absolute;
+  top: 50rem;
+  left: -10rem;
+}
+@media (max-width:850px) {
+  .card{
+    display:flex;
+    flex-direction: column;
+    margin-left: -120px;
+    margin-top: 600px;
+  }
+  .card-2{
+    margin-left: -100px;
+    margin-top: 20px;
+    width: 200px;
+  }
+  .card-3{
+    margin-left: -200px;
+    margin-top: 20px;
+    width: 200px;
+  }
+  .card-4{
+    margin-left: -300px;
+    margin-top: 20px;
+    width: 200px;
+  }
+}
+#prod{
+  width: 80px;
+  position: absolute;
+  left: 150px;
+  top: 40px;
+ 
+}
+.card-1{
+  width: 400px;
+  height: 300px;
+  background-color: #14001c;
+  position: relative;
+  top: 58rem;
+  left:300px;
+  border-radius: 10px;
+  color: black;
+  font-size: 25px;
+
+}
+.card-2{
+  width: 400px;
+  height: 300px;
+  background-color: #14001c;
+  position: relative;
+  top: 58rem;
+  left:400px;
+  border-radius: 10px;
+
+}
+
+.card-3{
+  width: 400px;
+  height: 300px;
+  background-color:#14001c;
+  position: relative;
+  top: 58rem;
+  left:500px;
+  border-radius: 10px;
+
+} 
+
+
+
+#product {
+  color: white;
+  font-size: 22px;
+  position: absolute;
+  top: 10px;
+  left: 130px;
+}
+#button{
+  width: 100px;
+  height: 50px;
+  border-radius: 8px;
+  border: none;
+  position: absolute;
+  top: 220px;
+  left: 150px;
+  font-size: 15px;
+  cursor: pointer;
+}
+#button:hover{
+  background-color: green;
+}
+#price{
+  position: absolute;
+  top: 130px;
+  left: 150px;
+  color: white;
+  font-size: 22px;
+  font-family: 'Pacifico', cursive;
+  font-family: 'Poppins', sans-serif;
+
+}
+.footer-page{
+  background-color: red;
+  width: 100%;
+  height: 300px;
+  position: relative;
+  top: 150rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size:18px;
+  font-weight: bolder;
+  font-family: 'Pacifico', cursive;
+  font-family: 'Poppins', sans-serif;
+  background-color: #14001c;
+  
+  
+
+  
+}
+.prods{
+  display: block;
+}
+#thoughts{
+  position: relative;
+  top: 100px;
+  color: white;
+  
+}
+#copyright{
+  color: white;
+  position: relative;
+  top: 100px;
+  font-size: 15px;
+}
+.icons{
+  position: relative;
+  top: 100px;
+ 
+ 
+}
+#fb {
+  width: 55px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+#fb:hover{
+  background-color: rgb(40, 40, 216);
+}
+#twt {
+  width: 55px;
+  margin-left: 30px;
+  cursor: pointer;
+ 
+}
+#twt:hover{
+  background-color: rgb(40, 40, 216);
+}
+#insta {
+  width: 55px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+#insta:hover{
+  background-color: rgb(228, 21, 149);
+
+}
